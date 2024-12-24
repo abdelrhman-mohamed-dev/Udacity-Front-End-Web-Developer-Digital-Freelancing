@@ -1,0 +1,33 @@
+/* Media queries Home */
+@media screen and (max-width: 768px) {
+  .header {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main {
+    margin: 20px auto;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .articles {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Media queries Full article */
+@media screen and (max-width: 768px) {
+  .full-article {
+    width: 90%;
+  }
+  .full-article-image {
+    height: 200px;
+  }
+}

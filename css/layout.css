@@ -1,0 +1,89 @@
+.main {
+  padding: 0 12px;
+  margin: 90px auto;
+}
+
+.page-title {
+  width: 90%;
+  margin: auto;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.header {
+  width: 90%;
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  border: #ccc solid 1px;
+  background: gray;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  rotate: 20deg;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.articles {
+  width: 90%;
+  margin: auto auto 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.pin-articles {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.pin-articles-title {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,129 @@
+.pin-article,
+.article {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.pin-article-image,
+.article-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pin-article-title,
+.article-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pin-article-description,
+.article-description {
+  font-size: 16px;
+}
+
+.footer {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+  color: gray;
+  border-top: 1px solid #ccc;
+}
+
+/* Full article */
+.full-article {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.full-article-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.full-article-description {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.full-article-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.full-article-content {
+  margin-bottom: 20px;
+}
+
+.full-article-list {
+  margin: 20px 50px;
+}
+
+.full-article-list li {
+  margin-bottom: 10px;
+}
+
+/* About page */
+.about-main {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-main h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.full-article-ditails {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.full-article-avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.full-article-author {
+  font-weight: bold;
+}
+
+.full-article-date {
+  color: gray;
+}
+
+.full-article-share {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.full-article-share-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
